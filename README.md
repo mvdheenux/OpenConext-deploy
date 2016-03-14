@@ -92,7 +92,7 @@ The lb vm contains haproxy and nginx. The apps vm contains all the applications,
 
 # Releases to vm, test, acc, prod
 
-To update single applications - e.g. release - use:
+To update single applications - e.g. release one tag - use:
 
 ```
 ./provision-single-component ${vm|test|acc|prod} ${remote-user} ${absolute location of secrets file} ${component}
